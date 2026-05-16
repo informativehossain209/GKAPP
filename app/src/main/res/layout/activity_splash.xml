@@ -11,11 +11,12 @@
     <!-- App Logo -->
     <ImageView
         android:id="@+id/splash_logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/app_logo"
         android:scaleType="fitCenter"
-        android:layout_marginBottom="16dp" />
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="12dp" />
 
     <!-- App Name in Bengali -->
     <TextView
