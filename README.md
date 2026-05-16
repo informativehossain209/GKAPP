@@ -1,4 +1,4 @@
-# 📱 G-Happk — Android APK
+# 📱 ঘর খরচ (Ghor Khoroch) — Android APK
 
 > **Web App → Native Android APK wrapper**
 > Built with ❤️ by **SAKIB HOSSAIN**
@@ -49,14 +49,14 @@ After pushing, wait **5–7 minutes**, then:
 
 ```
 Your Repository → Actions tab → latest workflow run
-→ "GHappk-APK" artifact → Download
+→ "GhorKhoroch-APK" artifact → Download
 ```
 
 ---
 
 ## 📲 Install APK on Phone
 
-1. Extract the ZIP → get `GHappk.apk`
+1. Extract the ZIP → get `GhorKhoroch.apk`
 2. Send to phone (WhatsApp / USB / Google Drive)
 3. Phone Settings → **"Unknown sources"** or **"Install unknown apps"** → Enable
 4. Tap the APK → Install
@@ -92,7 +92,7 @@ private static final String APP_URL = "https://g-happk.vercel.app/";
 
 When the app opens, users see a branded splash screen for **3 seconds** featuring:
 - App logo (replace `mipmap-*/ic_launcher.png` with your logo)
-- App name **G-Happk**
+- App name **ঘর খরচ (Ghor Khoroch)**
 - Developer credit: **✨ SAKIB HOSSAIN ✨**
 
 ---
