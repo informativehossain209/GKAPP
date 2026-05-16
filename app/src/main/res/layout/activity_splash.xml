@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash_background"
+    android:padding="40dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="32dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/splash_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" />
+
+    <!-- Divider line -->
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:alpha="0.5"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Spacer to push developer credit to bottom -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- "Developed by" label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by"
+        android:textSize="13sp"
+        android:textColor="#CCFFFFFF"
+        android:letterSpacing="0.12"
+        android:textAllCaps="true"
+        android:layout_marginBottom="6dp"
+        android:gravity="center" />
+
+    <!-- ★ DEVELOPER NAME — large, bold, glowing highlight ★ -->
+    <TextView
+        android:id="@+id/splash_dev_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAKIB HOSSAIN"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:letterSpacing="0.15"
+        android:shadowColor="#FF8C00"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="18"
+        android:gravity="center"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Tagline under name -->
+    <TextView
+        android:id="@+id/splash_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Stack Developer"
+        android:textSize="13sp"
+        android:textColor="#AAFFFFFF"
+        android:letterSpacing="0.08"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+</LinearLayout>
