@@ -8,32 +8,14 @@
     android:background="@drawable/splash_background"
     android:padding="40dp">
 
-    <!-- App Logo -->
+    <!-- App Logo — high-res drawable, crisp on all screens -->
     <ImageView
         android:id="@+id/splash_logo"
         android:layout_width="220dp"
         android:layout_height="220dp"
         android:src="@drawable/app_logo"
         android:scaleType="fitCenter"
-        android:adjustViewBounds="true"
-        android:layout_marginBottom="12dp" />
-
-    <!-- App Name in Bengali -->
-    <TextView
-        android:id="@+id/splash_app_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ঘর খরচ"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:textColor="#FF6600"
-        android:shadowColor="#22BB00"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="20"
-        android:letterSpacing="0.02"
-        android:layout_marginBottom="6dp"
-        android:gravity="center" />
+        android:layout_marginBottom="8dp" />
 
     <!-- Tagline -->
     <TextView
