@@ -61,7 +61,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private static final String APP_URL = "https://g-happk.vercel.app/";
+    private static final String APP_URL = "https://g-happk.vercel.app/ops-cf3aed4d1274";
     private static final String LOCAL_NO_INTERNET = "file:///android_asset/no_internet.html";
     private static final String LOCAL_MAINTENANCE = "file:///android_asset/maintenance.html";
 
