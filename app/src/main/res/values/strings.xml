@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">দোকানদার</string>
+    <string name="app_name">এডমিন</string>
 
     <!-- Push notifications (Firebase Cloud Messaging) -->
     <string name="default_notification_channel_id">miron_default_channel</string>
