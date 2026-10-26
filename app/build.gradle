@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.axiion.dms'
+    namespace 'com.axion.dms'
     compileSdk 34
 
     defaultConfig {
