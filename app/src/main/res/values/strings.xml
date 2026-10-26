@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Axion DMS</string>
+    <string name="app_name">Axiion DMS</string>
 
     <!-- Push notifications (Firebase Cloud Messaging) -->
     <string name="default_notification_channel_id">axiion_default_channel</string>
